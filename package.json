@@ -1,0 +1,22 @@
+{
+  "name": "nulled-pvea",
+  "version": "1.0.0",
+  "description": "nulled-pvea (pronounced nulled pea-va) is a revival of pvea, a node.js library for interacting with Proxmox VE's REST API, written by the original pvea developer.",
+  "main": "lib/index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nulledllc/nulled-pvea.git"
+  },
+  "author": "nulled LLC",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/nulledllc/nulled-pvea/issues"
+  },
+  "homepage": "https://github.com/nulledllc/nulled-pvea#readme"
+}
