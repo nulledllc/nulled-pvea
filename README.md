@@ -6,7 +6,7 @@ nulled-pvea (pronounced nulled pea-va) is a revival of pvea, a node.js library f
 
 ## Installation
 
-  `npm i nulled-pvea` or  `yarn add nulled-pvea`.
+  `npm i @nulledllc/nulled-pvea` or  `yarn add @nulledllc/nulled-pvea`.
 
 ## Maintainer
 [fieldofdisarray](https://github.com/fieldofdisarray) is the current maintainer. 
