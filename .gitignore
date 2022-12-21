@@ -1,5 +1,6 @@
 # Ignore temp.js, dev file.
 temp.js
+devapp.js
 
 # Logs
 logs
