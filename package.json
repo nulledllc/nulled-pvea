@@ -1,6 +1,6 @@
 {
   "name": "@nulledllc/nulled-pvea",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "type": "module",
   "description": "nulled-pvea (pronounced nulled pea-va) is a revival of pvea, a node.js library for interacting with Proxmox VE's REST API, written by the original pvea developer.",
   "main": "index.js",
