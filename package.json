@@ -21,7 +21,7 @@
   },
   "homepage": "https://github.com/nulledllc/nulled-pvea#readme",
   "dependencies": {
-    "@nulledllc/nulled-mixin": "^1.0.2",
-    "axios": "^1.2.0"
+    "axios": "^1.2.0",
+    "extends-classes": "^1.0.5"
   }
 }

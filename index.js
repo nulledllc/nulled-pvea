@@ -1,12 +1,8 @@
 // libraries.
 import axios from "axios";
-import mixin from "@nulledllc/nulled-mixin";
-import get from "./lib/requests/get.js";
-import post from "./lib/requests/post.js";
-import put from "./lib/requests/put.js";
-import del from "./lib/requests/del.js";
+import mixins from "./lib/mixins.js";
 
-export default class pvea extends mixin(get, post, put, del) {
+export default class pvea extends mixins {
   constructor(host, port, user, pass, apiKey) {
     super();
 
@@ -18,7 +14,7 @@ export default class pvea extends mixin(get, post, put, del) {
     this.pass = pass;
     this.apiKey = apiKey;
 
-    // authentication variables.
+    // authentication variables.s
     this.ticket = "";
     this.token = "";
     this.tokenTimeStamp = 0;
@@ -65,6 +61,5 @@ export default class pvea extends mixin(get, post, put, del) {
       this.run();
     }
   }
-
 
 }
