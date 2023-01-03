@@ -61,5 +61,4 @@ export default class pvea extends mixins {
       this.run();
     }
   }
-
 }
