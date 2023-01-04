@@ -30,7 +30,30 @@ nulled-pvea (pronounced nulled pea-va) is a revival of pvea, a node.js library f
     - [X] deletePool()
 
 - [ ] [Nodes](https://pve.proxmox.com/pve-docs/api-viewer/#/nodes)
-    - [ ] Work in progress.
+    - [X] listNodes()
+    - [X] wakeNode()
+    - [X] nodeApiVersion()
+    - [X] listNodeTime()
+    - [X] setNodeTimeZone()
+    - [X] listNodeSystemLog()
+    - [X] nodeSubscriptionStatus()
+    - [X] refreshNodeSubscriptionStatus()
+    - [X] updateNodeSubscriptionKey()
+    - [X] deleteNodeSubscriptionKey()
+    - [X] stopAllOnNode()
+    - [X] nodeStatus()
+    - [X] shutdownNode()
+    - [X] restartNode()
+    - [X] startAllOnNode()
+    - [X] getNodeReport()
+    - [X] migrateAllOnNode()
+    - [X] listNodeDnsSettings()
+    - [X] updateNodeDnsSettings()
+    - [X] listNodeConfig()
+    - [X] updateNodeConfig()
+    - [ ] LXC Containers
+      - [X] listContainers()
+      - [X] createContainer() 
 
 - [ ] [Cluster](https://pve.proxmox.com/pve-docs/api-viewer/#/cluster)
     - [ ] Low priority.
