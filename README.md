@@ -51,13 +51,32 @@ nulled-pvea (pronounced nulled pea-va) is a revival of pvea, a node.js library f
     - [X] updateNodeDnsSettings()
     - [X] listNodeConfig()
     - [X] updateNodeConfig()
-    - [ ] LXC Containers
+    - [ ] [LXC Containers](https://pve.proxmox.com/pve-docs/api-viewer/#/nodes/{node}/lxc)
       - [X] listContainers()
       - [X] createContainer() 
       - [X] deleteContainer()
-
+      - [X] [LXC Container Firewall](https://pve.proxmox.com/pve-docs/api-viewer/#/nodes/{node}/lxc/{vmid}/firewall)
+        - [X] listContainerFirewallRefs()
+        - [X] listContainerFirewallOptions()
+        - [X] updateContainerFirewallOptions()
+        - [X] listContainerFirewallLog()
+        - [X] listAllContainerFirewallRules()
+        - [X] createNewContainerFirewallRule()
+        - [X] listContainerFirewallRuleContent()
+        - [X] updateContainerFirewallRule()
+        - [X] deleteContainerFirewallRule()
+        - [X] listAllContainerFirewallIPSets()
+        - [X] createNewContainerFirewallIPSet()
+        - [X] listContainerFirewallIPSetContent()
+        - [X] deleteContainerFirewallIPSet()
+        - [X] listAllContainerFirewallAliases()
+        - [X] createNewContainerFirewallAlias()
+        - [X] listContainerFirewallAliasContent()
+        - [X] updateContainerFirewallAlias()
+        - [X] deleteContainerFirewallAlias()
+ 
 - [ ] [Cluster](https://pve.proxmox.com/pve-docs/api-viewer/#/cluster)
-    - [ ] Low priority.
+    - [ ] Medium priority.
 
 - [ ] [Access](https://pve.proxmox.com/pve-docs/api-viewer/#/nodes)
     - [ ] Low priority.
