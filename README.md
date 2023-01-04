@@ -8,6 +8,36 @@ nulled-pvea (pronounced nulled pea-va) is a revival of pvea, a node.js library f
 
   `npm i @nulledllc/nulled-pvea` or  `yarn add @nulledllc/nulled-pvea`.
 
+## To-do List
+
+- [X] Basic functionality.
+    - [X] Proxmox VE Authentication.
+    - [X] Update Authentication Token as needed.
+    - [X] List API version.
+
+- [X] [Storage](https://pve.proxmox.com/pve-docs/api-viewer/#/storage)
+    - [X] listStorage()
+    - [X] createNewStorage()
+    - [X] listStorageConfig()
+    - [X] updateStorageConfig()
+    - [X] deleteStorageConfig()
+
+- [X] [Pools](https://pve.proxmox.com/pve-docs/api-viewer/#/pools)
+    - [X] listPools()
+    - [X] createNewPool()
+    - [X] listPoolConfig()
+    - [X] updatePool()
+    - [X] deletePool()
+
+- [ ] [Nodes](https://pve.proxmox.com/pve-docs/api-viewer/#/nodes)
+    - [ ] Work in progress.
+
+- [ ] [Cluster](https://pve.proxmox.com/pve-docs/api-viewer/#/cluster)
+    - [ ] Low priority.
+
+- [ ] [Access](https://pve.proxmox.com/pve-docs/api-viewer/#/nodes)
+    - [ ] Low priority.
+ 
 ## Maintainer
 [fieldofdisarray](https://github.com/fieldofdisarray) is the current maintainer. 
 
