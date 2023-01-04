@@ -54,6 +54,7 @@ nulled-pvea (pronounced nulled pea-va) is a revival of pvea, a node.js library f
     - [ ] LXC Containers
       - [X] listContainers()
       - [X] createContainer() 
+      - [X] deleteContainer()
 
 - [ ] [Cluster](https://pve.proxmox.com/pve-docs/api-viewer/#/cluster)
     - [ ] Low priority.
