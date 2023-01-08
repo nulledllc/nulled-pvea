@@ -95,7 +95,15 @@ nulled-pvea (pronounced nulled pea-va) is a revival of pvea, a node.js library f
         - [X] listContainerSnapshotConfig()
         - [X] updateContainerSnapshotDescription()
         - [X] rollbackContainerToSnapshot()
- 
+      - [X] [Package Manger](https://pve.proxmox.com/pve-docs/api-viewer/#/nodes/{node}/apt)
+        - [X] listPackageDirectoryIndex()
+        - [X] listPackageChangelog()
+        - [X] listPackageRepos()
+        - [X] togglePackageRepo() - Note: will eventually be replaced with enablePackageRepo() and disablePackageRepo().
+        - [X] addNewPackageRepo()
+        - [X] ListAvailablePackageUpdates
+        - [X] fetchNewPackageUpdates()
+        - [X] listPackageVersions()
 - [ ] [Cluster](https://pve.proxmox.com/pve-docs/api-viewer/#/cluster)
     - [ ] Medium priority.
 
